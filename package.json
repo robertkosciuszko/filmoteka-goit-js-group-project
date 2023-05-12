@@ -7,10 +7,7 @@
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /filmoteka-goit-js-group-project/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rafallakomiec/filmoteka-goit-js-group-project.git"
-  },
+  
   "keywords": [],
   "author": "Rafał Łakomiec, Piotr Jankowski, Mateusz Karpiński, Michał Backi, Natalia Grela, Paweł Eliszewski, Robert Kościuszko, Sebastian Zasadni, Tomasz Ostaszewski",
   "license": "ISC",
