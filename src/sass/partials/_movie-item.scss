@@ -1,0 +1,115 @@
+.movie-item {
+  min-height: 440px;
+  max-width: 280px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: 767px) {
+    background-image: url('../images/phone/movie-placeholder-phone.jpg');
+    @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+      background-image: url('../images/phone/movie-placeholder-phone@2x.jpg');
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    background-image: url('../images/tablet/movie-placeholder-tablet.jpg');
+    @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+      background-image: url('../images/tablet/movie-placeholder-tablet@2x.jpg');
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-image: url('../images/desktop/movie-placeholder-desktop.jpg');
+    @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+      background-image: url('../images/desktop/movie-placeholder-desktop@2x.jpg');
+    }
+  }
+
+  &__details {
+    font-family: $basicFont, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+  &__rating {
+    background-color: $bgColor2;
+    color: $txtColor1;
+    width: 36px;
+    height: 16px;
+    line-height: 14px;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  &__year,
+  &__line {
+    color: $txtColor4;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: $txtColor2;
+    text-transform: uppercase;
+    font-style: normal;
+  }
+  &__genre {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    color: $txtColor4;
+  }
+
+  &__poster {
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    height: 398px;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .movie-item {
+    max-width: 336px;
+    min-height: 495px;
+  }
+  .movie-item__poster {
+    width: 336px;
+    height: 445px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .movie-item__poster {
+    width: 394px;
+    height: 574px;
+    margin-bottom: 12px;
+  }
+  .movie-item__title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+
+  .movie-item__rating {
+    width: 40px;
+    height: 20px;
+    font-size: 12px;
+    filter: none;
+  }
+
+  .movie-item__details {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .movie-item {
+    max-width: 394px;
+    min-height: 634px;
+  }
+}
