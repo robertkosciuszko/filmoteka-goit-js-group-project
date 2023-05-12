@@ -2,7 +2,7 @@
   "name": "filmoteka-goit-js-group-project",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://rafallakomiec.github.io/filmoteka-goit-js-group-project/",
+  "homepage": "https://robertkosciuszko.github.io/filmoteka-goit-js-group-project/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /filmoteka-goit-js-group-project/"
@@ -15,7 +15,7 @@
   "author": "Rafał Łakomiec, Piotr Jankowski, Mateusz Karpiński, Michał Backi, Natalia Grela, Paweł Eliszewski, Robert Kościuszko, Sebastian Zasadni, Tomasz Ostaszewski",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rafallakomiec/filmoteka-goit-js-group-project/issues"
+    "url": "https://robertkosciuszko.github.io/filmoteka-goit-js-group-project/issues"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
